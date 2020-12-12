@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>task3</title>
+        <style>
+            *{
+    font-family: serif;
+}
+div{
+    background-color: rgba(238, 228, 228, 0.849);
+    padding: 10px;
+    width: 410px;
+}
+td{
+    margin: 20px;
+}
+
+.aa{
+    font-size: 18pt;
+    background-color: rgba(0, 128, 6, 0.897);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    tr{
+        display: inline-grid;
+
+    }
+    div{
+        width: fit-content;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <table>
+            <colgroup>
+                <col style='width: 35%'>
+                <col style='width: 35%'>
+                <col>
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <img src='img1.jpg' alt='product1' width="400" height="250"><br>
+                            <span style='font-size: 20pt'> Redmi 8</span><br><br>
+                            Xiaomi Redmi 8 features a 6.22-inch IPS LCD display, which has a screen resolution of 720 x 1,520 pixels. It has a pixel density of 270 PPI. At the back, there is a dual primary camera setup having 12MP and 2MP lenses. It also has an 8MP front snapper with a screen flash.
+                            <br><br><br>
+                            <span style='float: left;width: 50%;font-size: 15pt'>$21,000</span>
+                            <input class='aa' type='button' value="Add to cart">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src='img2.jpg' alt='product2' width="400" height="250"><br>
+                            <span style='font-size: 20pt'>Apple PRODUCT(RED)</span><br><br>
+                            The iPhone 8 has been launched alongside the more expensive iPhone X. It looks much like its predecessor, the iPhone 7, but introduces a new glass back to allow for wireless charging. It's available in Space Grey, Silver, and Gold, with 64GB and 256GB storage options at launch time.
+                            <br><br><br>
+                            <span style='float: left;width: 50%;font-size: 15pt'>$21,000</span>
+                            <input class='aa' type='button' value="Add to cart">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src='img3.jpg' alt='product3' width="400" height="250"><br>
+                            <span style='font-size: 20pt'>ONE PLUS</span><br><br>
+                            The OnePlus 6 brings a new glass back with your choice of three different finishes, the Snapdragon 845 processor, and a bigger screen with a notch. It takes on today's biggest flagships, some of which cost over twice as much. Performance is great, and the display will keep most people happy
+                            <br><br><br>
+                            <span style='float: left;width: 50%;font-size: 15pt'>$21,000</span>
+                            <input class='aa' type='button' value="Add to cart">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src='img4.jpg' alt='product4' width="400" height="250"><br>
+                            <span style='font-size: 20pt'>Redmi Note 9</span><br><br>
+                            Product Description...Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime blanditiis culpa laudantium nisi, expedita dolor, molestias eaque assumenda doloribus explicabo necessitatibus ipsa repellat voluptas, laborum natus voluptate optio aliquam obcaecati!
+                            <br><br><br>
+                            <span style='float: left;width: 50%;font-size: 15pt'>$21,000</span>
+                            <input class='aa' type='button' value="Add to cart">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src='img5.jpg' alt='product5' width="400" height="250"><br>
+                            <span style='font-size: 20pt'>
+                                APPLE IPHONE</span><br><br>
+                                The iPhone 8 has been launched alongside the more expensive iPhone X. It looks much like its predecessor, the iPhone 7, but introduces a new glass back to allow for wireless charging. It's available in Space Grey, Silver, and Gold, with 64GB and 256GB storage options at launch time.
+                            <br><br><br>
+                            <span style='float: left;width: 50%;font-size: 15pt'>$21,000</span>
+                            <input class='aa' type='button' value="Add to cart">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src='img6.jpg' alt='product6' width="400" height="250"><br>
+                            <span style='font-size: 20pt'>MOTOG</span><br><br>
+                            The phone features a 4.5 inch LCD IPS screen and a Qualcomm Snapdragon 400 quad-core processor clocked at 1.2 GHz, paired with the Adreno 305 GPU running at 450 MHz clock speed. The original operating system was Android 4.3 "Jelly Bean", with later updates to 5.1 "Lollipop"
+                            <br><br><br>
+                            <span style='float: left;width: 50%;font-size: 15pt'>$21,000</span>
+                            <input class='aa' type='button' value="Add to cart">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

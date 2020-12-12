@@ -1,0 +1,146 @@
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>task2</title>
+        <style>
+        *{
+            font-size: 15pt;
+            font-family: Serif
+        }
+        nav{
+              display: block;
+              height: 50px;
+          }
+          td{
+            padding: 10px;
+          }
+          table {
+            border-collapse: collapse;
+            
+        }
+        li {
+            display: inline-block;
+            background-color: rgba(0, 174, 255, 0.493);
+          }
+          
+          li {
+            text-decoration: none;
+            color: rgba(11, 10, 65, 0.651);
+          }
+          li:focus{
+              background-color: blue;
+          }
+          
+        @media screen and (max-width: 768px) {
+            tr{
+                display: inline-grid;
+        
+            }
+        }
+        </style>
+    </head>
+    <body>
+        
+        <table style="width: 100%">
+            <colgroup>
+                <col style='width: 20%'>
+                <col style='background-color: rgb(238, 230, 230);'>
+                <col style='width: 20%'>
+            </colgroup>
+            <tbody>
+                
+                    <tr>
+                        <td></td>
+                        <td>
+                            
+                            <span style='float: left;width: 50%;margin-top: 15px;'>Starter template </span>
+                            <span style='float: right; width: fit-content'>
+                                <nav>
+                                    <ul>
+                                        <li><a id='home' href='home'>Home</a></li>
+                                        <li><a href='about'>About</a></li>
+                                        <li><a href='about'>Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </span> 
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><hr><br>
+                            <div style='text-align: center; background-color: rgba(211, 211, 211, 0.479);'>
+                                <span style='text-align: center; font-size: 24pt; font-weight: bold;'>Jumbotron Heading</span><br>
+                                <p>People in Kerala will be vaccinated for free whenever the COVID-19 vaccine becomes available, Chief Minister Pinarayi Vijayan told reporters in Thiruvananthapuram today. </p>
+                                
+                                <div style='text-align: center;'>
+                                    <input style='font-size: 20pt;background-color: green;border: none;color: white;border-radius: 5px;padding: 10px;' type='button' value="Sign up today">
+                                </div>
+                                <br>
+                                <div style='text-align: center;'>
+                                    <input style='font-size: 20pt;background-color:blue;border: none;color: white;border-radius: 5px;padding: 10px;' type='button' value="Launch Demo Modal">
+                                </div>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <table>
+                                <colgroup>
+                                    <col style='width: 50%'>
+                                    <col style='width: 50%'>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span style='font-size: 16pt'></span><u>District Development<br></u>
+                                            <span style='font-size: 11pt'>Over 7.48 lakh voters will decide the fate of 245 candidates, including 100 women contestants, in the sixth phase of District Development Council (DDC) elections in Jammu and Kashmir on Sunday, state Election Commissioner K K Sharma said.</span>
+                                        </td>
+                                        <td>
+                                            <span style='font-size: 17pt'></span> <u>Union Minister<br></u>
+                                            <span style='font-size: 12pt'>As the farmers' protest against new farm laws entered its 17th day, Union Minister Piyush Goyal on Saturday said the agitation no longer remains a farmers' movement as it has been "infiltrated by Leftist and Maoist elements" demanding </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span style='font-size: 17pt'> </span><u>Supreme Court<br></u>
+                                            <span style='font-size: 12pt'>The Central government has submitted before the Supreme Court that it is against the involuntary methods of family planning for population control and added that Family Welfare Programme in India is voluntary in nature.</span>
+                                        </td>
+                                        <td>
+                                            <span style='font-size: 17pt'></span><u>
+                                             Jagannath Temple<br></u>
+                                            <span style='font-size: 12pt'>The Shree Jagannath Temple here is likely to throw open its gates to devotees before New Year after being closed for nine months due to COVID-19, the temple administration said on Saturday..</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span style='font-size: 17pt'></span><u>
+                                            International Science</u><br>
+                                            <span style='font-size: 12pt'>IISF 2020: The 6th India International Science Festival 2020 (IISF 2020) will be held between December 22 and December 25, 2020. A series of curtain raiser events (CRE) were organised at Chennai.</span>
+                                        </td>
+                                        <td>
+                                            <span style='font-size: 17pt'></span><u> lawmakers<br></u>
+                                            <span style='font-size: 12pt'>Influential American lawmakers, including Indian-American Congresswoman Pramila Jayapal, have urged President-elect Joe Biden to reverse the immigration policies of Donald Trump, </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td></td>
+                    </tr>
+            </tbody>
+        </table>
+        <script>
+            window.onload=function(){
+                 let home=document.getElementById('home');
+                 link.click();
+                 link.focus();
+                };
+        </script>
+    </body>
+</html>

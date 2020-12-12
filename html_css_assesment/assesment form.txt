@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Form </title>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <style>
+        *{
+  font-family: 'serif';
+  font-size: 14pt;
+}
+body{
+  text-align: center;
+}
+.submit{
+text-align: center;
+
+}
+table
+{
+  display: block;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+.row2{
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+i{
+  vertical-align: center;
+  padding: 10px;
+  text-align: center;
+}
+td{
+  height: 40px;
+}
+.inner{
+  height: 97%;
+  width: fit-content;
+}
+.input{
+  width: fit-content;
+  height: 100%;
+  border: none;
+  float: right;
+}
+.select{
+  width: fit-content;
+  height: 100%;
+  border: none;
+  float: right;
+}
+@media screen and (max-width: 768px) {
+  .form{
+      background:rgb(211, 211, 211);
+      padding: 3px;
+      max-width: fit-content;
+      justify-self: center;
+      display: inline-block;
+      width: 100%;
+  }
+  table{
+      row-gap: 2px;
+  }
+  .c1 {
+      column-count: 2;
+  }
+  .c2{
+      column-count: 2;
+  }
+  tr{
+      display: inline-grid;
+
+  }
+  .row1 .row2{
+      text-align: center;
+  }
+}
+@media screen and (min-width:769px){
+  .form{
+      background:rgba(211, 211, 211, 0.973);
+      padding: 10px;
+      max-width: 1320px;
+      justify-self: center;
+      display: inline-block;
+      width: 750px;
+  }
+  .c1{
+      width: 50%;
+  }
+  .c2{
+      width: 50%;
+  }
+  table{
+      row-gap: 15px;
+  }
+  .row1 {
+      text-align: left;
+      float: left;
+      width: 50%;
+  }
+  .row2{
+      text-align: left;
+      float: right;
+      width: fit-content;
+  }
+  .inner{
+      width: 285px;
+  }
+  .icon{
+    padding: 10px;
+  background: rgb(30, 184, 255);
+  color: white;
+  min-width: 40px;
+  text-align: center;
+}
+}
+    </style>
+    </head>
+    <body>
+        <script>
+            function fun()
+            {
+                alert( 'thank you!');
+            }
+        </script>
+        <form class='form' onsubmit="fun()">
+            <table>
+                <colgroup>
+                    <col class='c1'>
+                    <col class='c2'>
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td class='row1'>
+                            Full Name
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class='fas fa-user icon'></i>
+                                <input class='input' type='text' required name='fullname' id='name' placeholder="Full Name">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                            Address Line 1
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class='far fa-address-book icon'></i>
+                                <input class='input' type='text' required name='addressline1' id='address1' placeholder="Address Line 1">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                            Address Line 2
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class='far fa-address-book icon'></i>
+                                <input class='input' type='text' name='addressline2' id='address2' placeholder="Address Line 2">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                            City
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class='far fa-building icon'></i>
+                                <input class='input' type='text' required name='city' id='city' placeholder="City">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                            State/Province/Region
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class="fas fa-map-marker-alt icon"></i>
+                                <input class='input' type='text' required name='state' id='state' placeholder="State/Province/Region">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                           Postal Code/ZIP
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class="far fa-envelope-open icon"></i>
+                                <input class='input' type='text' required name='zip' id='zip' placeholder="Postal Code/ZIP">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                           Country
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class="far fa-map icon"></i>
+                                <select class='select' name='country' id='countrydetails' required >
+                                    <option value="" >Canada</option>
+                                    <option value="" >Finland</option>
+                                    <option value="" >France</option>
+                                    <option value="" >Germany</option>
+                                    <option value="" >Ghana</option>
+                                    <option value="" >India</option>
+                                    <option value="" >Indonesia</option>
+                                    <option value="" >Italy</option>
+                                    <option value="" >Japan</option>
+                                    <option value="" >Jordan</option>
+                                    <option value="" >Kenya</option>
+                                    <option value="" >Korea</option>
+                                    <option value="" >Malaysia</option>
+                                    <option value="" >Maldives</option>
+                                
+                                  </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                            Email
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class='fas fa-user icon'></i>
+                                <input class='input' type='email' required name='email' id='email' placeholder="Email">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='row1'>
+                            Phone Number
+                        </td>
+                        <td class='row2'>
+                            <div class='inner'>
+                                <i class='fas fa-user icon'></i>
+                                <input class='input' type='tel' required name='tel' id='tel' placeholder="Phone Number">
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+
+            </table>
+            <input class='submit' type="submit" name='submitbutton' id='submit'>
+        </form>
+        
+    </body>
+</html>
